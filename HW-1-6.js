@@ -17,10 +17,9 @@ checkPalindrome("Сантимент");
 //6.6.2
 
 const arr = [1, 2, 3, 1, 5, 4, 2, 3, 5, 'they', 'don\'t', 'know', 'that', 'we', 'know', 'that', 'they', 'know' ];
-arr.splice(6,3)
-arr.splice(3,1);
-arr.splice(9)
-console.log(arr)
+const uniqueSet = new Set(arr)
+const uniqueArray = (Array.from(uniqueSet))
+console.log(uniqueArray)
 
 //6.6.3.
 
