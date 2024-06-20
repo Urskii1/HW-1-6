@@ -23,11 +23,17 @@ console.log(uniqueArray)
 
 //6.6.3.
 
-const newArray = [];
-    for (let i = 0; i <= 5; i += 1) {
-        newArray.push(i);
-    }
-    console.log(newArray)
+let input = +prompt('Введите любое число');
+
+let result = [];
+let i = 0;
+
+while(i <= number) {
+  result.push(i);
+  i++;
+}
+ 
+console.log(result);
 
 //6.6.4.
 
