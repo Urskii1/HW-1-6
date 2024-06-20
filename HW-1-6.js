@@ -6,6 +6,8 @@ function palindrome(str) {
     str = str.toLowerCase();
     return str === str.split("").reverse().join("");
 }
+const check = palindrome("Довод")
+console.log(check ? `Является палиндромом` : `Не являет палиндромом` )
 
 palindrome("Сантимент")
 
@@ -13,6 +15,8 @@ function palindrome(str) {
     str = str.toLowerCase();
     return str === str.split("").reverse().join("");
 }
+const check = palindrome("Сантинент")
+console.log(check ? `Является палиндромом` : `Не являет палиндром` )
 
 
 //6.6.3.
