@@ -45,4 +45,5 @@ const obj = {
     tom: 'there'
 };
 
-Object.values(obj) // Выходные данные: ["some", "text", 1, 2, 3, 4, 5, "there"]
+Object.values(obj)
+console.log(Object.values(obj))
