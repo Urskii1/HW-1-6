@@ -29,6 +29,7 @@ const newArray = [];
     for (let i = 1; i <= 5; i += 1) {
         newArray.push(i);
     }
+    console.log(newArray)
 
 //6.6.4.
 
