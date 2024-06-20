@@ -23,10 +23,8 @@ console.log(uniqueArray)
 
 //6.6.3.
 
-const promptText = prompt('Введите любое число');
-
 const newArray = [];
-    for (let i = 1; i <= 5; i += 1) {
+    for (let i = 0; i <= 5; i += 1) {
         newArray.push(i);
     }
     console.log(newArray)
