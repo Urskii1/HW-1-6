@@ -44,13 +44,6 @@ const obj = {
     arr: [1, 2, 3, 4, 5],
     tom: 'there'
 };
-
-const obj = {
-    some: 'some',
-    dom: 'text',
-    arr: [1, 2, 3, 4, 5],
-    tom: 'there'
-};
 const arr = ['some', 'text', [1,2,3,4,5], 'there'];
 const flatArr = arr.flat();
 console.log('flatArr', flatArr)
