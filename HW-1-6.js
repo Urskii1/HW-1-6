@@ -1,22 +1,18 @@
 //6.6.1.
 
-palindrome("Довод")
+function checkPalindrome(str) {
+    const normalStr = str.toLowerCase();
+    const reverseStr = normalStr.split('').reverse().join('');
 
-function palindrome(str) {
-    str = str.toLowerCase();
-    return str === str.split("").reverse().join("");
+    if (normalStr === reverseStr) {
+        console.log(Слово ${str} является палиндромом);
+    } else {
+        console.log(Слово ${str} не является палиндромом);
+    }
 }
-const check = palindrome("Довод")
-console.log(check ? `Является палиндромом` : `Не являет палиндромом` )
 
-palindrome("Сантимент")
-
-function palindrome(str) {
-    str = str.toLowerCase();
-    return str === str.split("").reverse().join("");
-}
-const check = palindrome("Сантинент")
-console.log(check ? `Является палиндромом` : `Не являет палиндром` )
+checkPalindrome("Довод");
+checkPalindrome("Сантимент");
 
 
 //6.6.3.
